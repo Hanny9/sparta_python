@@ -15,4 +15,8 @@ for rank in music:
     if artist is not None and title is not None:
         print (str(i) + "위 : " + artist.get_text() + title.get_text())
         i = i + 1
+# ResultSet object has no attribute '%s'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+# 라는 게 떠요. 뭐가 잘못 되었을까요?
+# select_one()과 select()의 차이, find_all()이 뭔지 알고 싶어요.
+# ~ 안에 a 가 있으면, 라는 조건이 왜 필요한가요?
 
